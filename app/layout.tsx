@@ -6,8 +6,8 @@ import { Analytics } from "@vercel/analytics/react";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Simon Gavelin | Senior Frontend Developer",
-  description: "Senior Frontend Developer with a passion for React, Typescript and Next.js.",
+  title: "Simon Gavelin | Senior Software Engineer",
+  description: "Senior Software Engineer with a passion for React, Typescript, .NET and Azure.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {

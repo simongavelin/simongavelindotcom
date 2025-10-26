@@ -18,8 +18,8 @@ const letterVariant = {
   },
 };
 
-const firstLine = "Senior Frontend Developer with a passion";
-const secondLine = "for React, Typescript and Next.js.";
+const firstLine = "Senior Software Engineer with a passion";
+const secondLine = "for React, Typescript, .NET and Azure.";
 
 /**
  * Animate sub heading texts using `framer-motion`

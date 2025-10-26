@@ -1,30 +1,22 @@
-import type { Config } from 'tailwindcss'
-
-const config: Config = {
-  content: [
-    './pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './components/**/*.{js,ts,jsx,tsx,mdx}',
-    './app/**/*.{js,ts,jsx,tsx,mdx}',
-  ],
+// tailwind.config.ts
+export default {
   theme: {
     extend: {
-      animation: {
-        text: 'text 6s ease infinite',
-      },
       keyframes: {
         text: {
-          '0%, 100%': {
-            'background-size': '200% 200%',
-            'background-position': 'left center',
+          "0%, 100%": {
+            backgroundSize: "200% 200%",
+            backgroundPosition: "left center",
           },
-          '50%': {
-            'background-size': '200% 200%',
-            'background-position': 'right center',
+          "50%": {
+            backgroundSize: "200% 200%",
+            backgroundPosition: "right center",
           },
         },
       },
+      animation: {
+        text: "text 3s ease-in-out infinite",
+      },
     },
   },
-  plugins: [],
-}
-export default config
+};

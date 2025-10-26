@@ -3,7 +3,7 @@
  */
 const NameHeader = () => {
   return (
-    <h1 className="animate-text bg-gradient-to-r from-teal-400 via-purple-600 to-orange-500 bg-clip-text text-transparent text-6xl lg:text-8xl text-center font-extrabold">
+    <h1 className="animate-text bg-gradient-to-r from-orange-400 via-purple-500 to-purple-800 bg-clip-text text-transparent text-6xl lg:text-8xl text-center font-extrabold">
       Simon Gavelin
     </h1>
   );

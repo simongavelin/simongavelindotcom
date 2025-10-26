@@ -20,13 +20,11 @@ const ContactInfo = () => {
           scale: 1.1,
         }}
       >
-        <Link href={"https://www.linkedin.com/in/simon-gavelin/"} passHref legacyBehavior>
-          <a target={"_blank"} className="contact-link">
-            <div className="flex justify-center">
-              <LinkedInIcon />
-              <span className="ml-1">LinkedIn</span>
-            </div>
-          </a>
+        <Link href={"https://www.linkedin.com/in/simon-gavelin/"} target={"_blank"} className="contact-link">
+          <div className="flex justify-center">
+            <LinkedInIcon />
+            <span className="ml-1">LinkedIn</span>
+          </div>
         </Link>
       </motion.div>
       <motion.div
@@ -39,13 +37,11 @@ const ContactInfo = () => {
           scale: 1.1,
         }}
       >
-        <Link href={"mailto:info@simongavelin.com"} passHref legacyBehavior>
-          <a target={"_blank"} className="contact-link">
-            <div className="flex justify-center">
-              <EmailIcon />
-              <span className="ml-1">info@simongavelin.com</span>
-            </div>
-          </a>
+        <Link href={"mailto:info@simongavelin.com"} target={"_blank"} className="contact-link">
+          <div className="flex justify-center">
+            <EmailIcon />
+            <span className="ml-1">info@simongavelin.com</span>
+          </div>
         </Link>
       </motion.div>
     </div>
