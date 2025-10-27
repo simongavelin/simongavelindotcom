@@ -1,5 +1,21 @@
 @import "tailwindcss";
 
+/* Add your custom animation here */
+@theme {
+  --animate-shimmer: shimmer 8s ease-in-out infinite;
+  @keyframes shimmer {
+    0%,
+    100% {
+      background-size: 200% 200%;
+      background-position: left center;
+    }
+    50% {
+      background-size: 200% 200%;
+      background-position: right center;
+    }
+  }
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
